@@ -1,7 +1,9 @@
 package com.liuhong.kengcheng;
 
+
 import java.io.File;
 import java.io.Serializable;
+import java.util.List;
 
 import org.dom4j.Document;
 import org.dom4j.Element;
@@ -23,6 +25,7 @@ public class Student implements Serializable {
 			
 			Element root = document.getRootElement();
 			
+			List<Element> els = root.elements();
 			
 			
 		}catch(Exception e){
